@@ -1,6 +1,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Laravel 5.7 & MySQL CRUD Tutorial</title>
+<title>Simple Crud Template</title>
 <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
 </head>
 
 <body>

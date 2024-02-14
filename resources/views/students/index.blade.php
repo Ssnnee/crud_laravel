@@ -8,9 +8,9 @@
                 <a style="margin: 19px;" href="{{ route('students.create')}}" class="btn btn-primary">Ajouter un  étudiant</a>
             </div>
 
-            <table class="table table-striped">
+            <table class="table table-striped ">
                 <thead>
-                    <tr>
+                    <tr class="font-weight-bold">
                         <td>ID</td>
                         <td></td>
                         <td>Prenom</td>
