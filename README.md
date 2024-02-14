@@ -7,6 +7,48 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Step to do this
+## How to use
+```
+git clone https://github.com/Ssnnee/crud_laravel.git
+cd crud_laravel
+composer  install
+php artisan migrate
+php artisan server
+```
 
+## Process to acheive this
++ Create
+`
+composer create-project --prefer-dist laravel/laravel name_project
+`
++ To install front-end dependencies
+`
+npm install
+`
++ Create db
+```
+mysql -u root -h localhost -p
+create database db;
+```
+Then need to update the .env
++ Create model
+`
+php artisan make:model ModelName --migration
+`
++ Open  database/migrations/xxxxxx_create_... update it
+Then
+`
+php artisan migrate
+`
++ Update the Model
++ Create controller
+`
+php artisan make:controller ModelController --resource
+`
+Then update it
++ Create route
+`
+Route::resource('students', 'App\Http\Controllers\StudentController');
+`
+That's pretty  much it
 
